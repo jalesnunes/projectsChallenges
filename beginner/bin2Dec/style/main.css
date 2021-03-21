@@ -1,0 +1,16 @@
+html, body, h1 {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    background-color: #99E6D8;
+}
+h1 {
+    font: bolder;
+    padding-top: 30px;
+}
