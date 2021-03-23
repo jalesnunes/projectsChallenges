@@ -1,16 +1,75 @@
-html, body, h1 {
+html{
     font-family: "Roboto", sans-serif;
+    height: 100%;
     padding: 0;
     margin: 0;
-    border: 0;
     box-sizing: border-box;
 }
 
-header {
-    height: 100px;
-    background-color: #99E6D8;
+body {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #3f2a50;
+    color: #9D8EF5;
 }
-h1 {
-    font: bolder;
-    padding-top: 30px;
+
+form {
+    background-color: rgba(255, 255, 255, 0.09);
+    margin: 32px auto;
+    display: flex;
+    padding: 32px 64px;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+}
+
+div.input {
+    position: relative;
+    margin-bottom: 24px;
+}
+
+input,
+button,
+textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding: 16px 0;
+    border: none;
+    border-bottom: 1px solid #fd951f;
+    background-color: transparent;
+    outline: none;
+    color: #f0f0f5;
+    font-size: 2em;
+}
+
+button {
+    margin-top: 16px;
+    background-color: #fd951f;
+}
+
+button:hover {
+    background-color: #f0a551;
+    cursor: pointer;
+}
+
+input~label {
+    position: absolute;
+    top: 16px;
+    left: 0;
+
+    color: rgba(255, 255, 255, 0.6);
+
+    transition: .4s;
+}
+
+input:focus~label,
+input:valid~label {
+    transform: translateY(-24px);
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
 }

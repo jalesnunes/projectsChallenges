@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,29 +10,26 @@
     <link rel="stylesheet" href="/style/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <script src="/scripts/getConvert.js"></script>
-    
+
 </head>
+
 <body>
-    <input type="number" id="binary">
-    <button onclick="getConvet()">Convert</button>
-    <textarea name="" id="result" cols="30" rows="10" readonly></textarea>
-    <!--<div class="container">
-        <header>
-            <h1>Binary to Decimal Converter</h1>            
-        </header>
-        <form action="">
-            <div class="calc">
-                <label>Enter Binary Number</label>
-                <input type="number" id="binary">
-                <button onclick="getConvet()">Convert</button>
-                <label for="">Decimal number</label>
-                <textarea name="" id="result" cols="30" rows="10" readonly></textarea>
-            </div>
-        </form>
-        
-            
-        
-    </div>-->
-    
+    <form>
+        <h1 style="text-align: center;">Bin2Dec</h1>
+        <h2>Binary to Decimal Converter</h2>
+        <div class="input">
+            <label>Binary</label>
+            <input type="number" id="binary" max="8" onchange="verify()">
+            <span id="error"></span>
+        </div>
+
+        <div class="input">
+            <label>Decimal</label>
+            <textarea name="" id="result" cols="10" rows="1" readonly></textarea>
+        </div>
+
+        <button onclick="getConvet()">Convert</button>
+    </form>
 </body>
+
 </html>
