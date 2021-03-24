@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="/style/main.css">
+    <script src="/script/main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="row-1">
+            <input id="result" type="number" readonly>
+        </div>
+            
+        <div class="row-2">
+            <button class="symbol">C</button>
+            <button class="symbol">CE</button>
+            <button class="symbol">%</button>
+            <button class="symbol">/</button>
+        </div>
+
+        <div class="row-3">
+            <button class="num">7</button>
+            <button class="num">8</button>
+            <button class="num">9</button>
+            <button class="symbol">X</button>
+        </div>
+
+        <div class="row-4">
+            <button class="num">4</button>
+            <button onclick="addNumber(5)" id="5" class="num">5</button>
+            <button class="num">6</button>
+            <button class="symbol">-</button>
+        </div>
+
+        <div class="row-5">
+            <button class="num">1</button>
+            <button class="num">2</button>
+            <button class="num">3</button>
+            <button class="symbol">+</button>
+        </div>
+
+        <div class="row-6">
+            <button class="num" id="0" style="width: 194px;">0</button>
+            <button class="num">,</button>
+            <button class="equal" id="=">=</button>
+        </div>
+    </div>
+
+    <textarea name="" id="visor" ></textarea>
+    <input type="number" name="" id="visor1" readonly>
+    <output id="visor2"></output>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+html{
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body  {
+
+    font-size: 1em;
+    background-color: #6CBDAF;
+    
+}
+
+.container {
+    background-color: #ffffffe8;
+    width: 400px;
+    height: 560px;
+    margin: 10% auto;
+    border: none;
+}
+
+.num {
+    background-color: rgba(0, 0, 0, 0.664);
+    color: whitesmoke;
+} 
+.num:hover {
+    background-color: #f0a551;
+    cursor: pointer;
+}
+
+.symbol {
+    background-color: rgba(0, 0, 0, 0.473);
+    color: whitesmoke;
+}
+
+.symbol:hover {
+    background-color: #f0a551;
+    cursor: pointer;
+}
+
+.equal {
+    background-color: #4B94BD
+}
+
+.equal:hover {
+    background-color: #2a6a8f
+}
+
+div.row-1>input {
+    border: 0;
+    padding: 0;
+    width: 100%;
+    height: 150px;
+    color: black;
+}
+
+div.row-2>button {
+    height: 80px;
+    width: 94px;
+    border: none;
+    padding: 0;
+    margin: 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+div.row-3>button {
+    height: 80px;
+    width: 94px;
+    border: 0;
+    padding: 0;
+    margin: 1px;
+}
+
+div.row-4>button {
+    height: 80px;
+    width: 94px;
+    border: 0;
+    padding: 0;
+    margin: 1px;
+}
+
+div.row-5>button {
+    height: 80px;
+    width: 94px;;
+    border: 0;
+    padding: 0;
+    margin: 1px;
+}
+
+div.row-6>button {
+    height: 80px;
+    width: 94px;
+    border: 0;
+    padding: 0;
+    margin: 1px;
+}
+
