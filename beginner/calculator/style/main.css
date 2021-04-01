@@ -14,9 +14,9 @@ body  {
 }
 
 .container {
-    background-color: #ffffffe8;
+    background-color: #ffffff8a;
     width: 400px;
-    height: 560px;
+    height: 580px;
     margin: 10% auto;
     border: none;
 }
@@ -48,13 +48,35 @@ body  {
     background-color: #2a6a8f
 }
 
-div.row-1>input {
+#visor {
+    border: 0;
+    padding-top: 50px;
+    width: 100%;
+    height: 100px;
+    color: black;
+    text-align: right;
+    font-size: 4em;
+    overflow: hidden;
+}
+
+#accumulator {
+    border: 0;
+    padding-top: 5px;
+    width: 100%;
+    height: 15px;
+    color: black;
+    text-align: right;
+    font-size: 1em;
+    overflow: hidden;
+}
+
+/*div.row-1>input {
     border: 0;
     padding: 0;
     width: 100%;
     height: 150px;
     color: black;
-}
+}*/
 
 div.row-2>button {
     height: 80px;

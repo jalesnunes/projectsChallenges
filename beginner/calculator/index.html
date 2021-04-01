@@ -15,47 +15,52 @@
     <div class="container">
         
         <div class="row-1">
-            <input id="result" type="number" readonly>
+            <div id="accumulator"></div>
+            <div id="visor">
+
+            </div>
+            <!--<output id="visor2"></output>-->
+            <!--<input id="result" type="number" readonly>-->
         </div>
             
         <div class="row-2">
-            <button class="symbol">C</button>
-            <button class="symbol">CE</button>
+            <button onclick="cleanAll()" class="symbol">C</button>
+            <button onclick="cleanThis()" class="symbol">CE</button>
             <button class="symbol">%</button>
-            <button class="symbol">/</button>
+            <button onclick="insertData('/')" class="symbol">/</button>
         </div>
 
         <div class="row-3">
-            <button class="num">7</button>
-            <button class="num">8</button>
-            <button class="num">9</button>
-            <button class="symbol">X</button>
+            <button onclick="insertData(7)" class="num">7</button>
+            <button onclick="insertData(8)" class="num">8</button>
+            <button onclick="insertData(9)" class="num">9</button>
+            <button onclick="insertData('*')" class="symbol">X</button>
         </div>
 
         <div class="row-4">
-            <button class="num">4</button>
-            <button onclick="addNumber(5)" id="5" class="num">5</button>
-            <button class="num">6</button>
-            <button class="symbol">-</button>
+            <button onclick="insertData(4)" class="num">4</button>
+            <button onclick="insertData(5)" id="5" class="num">5</button>
+            <button onclick="insertData(6)" class="num">6</button>
+            <button onclick="insertData('-')" class="symbol">-</button>
         </div>
 
         <div class="row-5">
-            <button class="num">1</button>
-            <button class="num">2</button>
-            <button class="num">3</button>
-            <button class="symbol">+</button>
+            <button onclick="insertData(1)" class="num">1</button>
+            <button onclick="insertData(2)" class="num">2</button>
+            <button onclick="insertData(3)" class="num">3</button>
+            <button onclick="insertData('+')" class="symbol">+</button>
         </div>
 
         <div class="row-6">
-            <button class="num" id="0" style="width: 194px;">0</button>
+            <button onclick="insertData(0)" class="num" id="0" style="width: 194px;">0</button>
             <button class="num">,</button>
-            <button class="equal" id="=">=</button>
+            <button onclick="showResult()" class="equal" id="=">=</button>
         </div>
     </div>
 
-    <textarea name="" id="visor" ></textarea>
+    <!--<textarea name="" id="visor" ></textarea>
     <input type="number" name="" id="visor1" readonly>
-    <output id="visor2"></output>
+    <output id="visor2"></output>-->
 </body>
 
 </html>
