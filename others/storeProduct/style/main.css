@@ -1,0 +1,276 @@
+body {
+    background-color: rgba(231, 227, 227, 0.479);
+}
+
+.content {
+    position: relative;
+    width: 263px;
+    height: 386px;
+    margin: 12% auto;
+    background: #ffffff;
+    box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.25);
+    border-radius: 16px 50px 16px 16px;
+}
+
+.product-image {
+    position: relative;
+    top: -190px;
+    right: 25px;
+}
+
+.brand {
+    position: absolute;
+    width: 41px;
+    height: 16px;
+    left: 24px;
+    top: 118px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8F8F8F;
+}
+
+.name {
+    position: absolute;
+    width: 218px;
+    height: 60px;
+    left: 23px;
+    top: 130px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+    color: #29455F;
+}
+
+.price-simbol {
+    position: absolute;
+    left: 170px;
+    top: 210px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #808080;
+}
+
+.price {
+    position: absolute;
+    left: 185px;
+    top: 205px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: #29455F;
+}
+
+.color-container {
+    position: absolute;
+    left: 24px;
+    top: 235px;
+}
+
+.color-text {
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #808080;
+}
+
+#green {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 25px;
+    background: #B5DB48;
+    border: none;
+    border-radius: 50%;
+}
+
+#green:hover {
+    background: #b4db48ad;
+    cursor: pointer;
+}
+
+#red {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 31px;
+    top: 25px;
+    background: #FF3838;
+    border: none;
+    border-radius: 50%;
+}
+
+#red:hover {
+    background: #ff3838a9;
+    cursor: pointer;
+}
+
+#blue {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 61px;
+    top: 25px;
+    background: #3864FF;
+    border: none;
+    border-radius: 50%;
+}
+
+#blue:hover {
+    background: #3863ffad;
+    cursor: pointer;
+}
+
+.size-container {
+    position: absolute;
+    top: 55px;
+}
+
+.size-text {
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #808080;
+}
+
+.text {
+    position: absolute;
+    left: 6px;
+    top: -8px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #808080;
+}
+
+#size-37 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 25px;
+    background: #B5DB48;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: white;
+}
+
+#size-37:hover {
+    background: #b4db48ad;
+    cursor: pointer;
+}
+
+#size-38 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 31px;
+    top: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: white;
+}
+
+#size-38:hover {
+    background: #e9ebe54b;
+    cursor: pointer;
+}
+
+#size-39 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 61px;
+    top: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: white;
+}
+
+#size-39:hover {
+    background: #e9ebe54b;
+    cursor: pointer;
+}
+
+#size-40 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 91px;
+    top: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: white;
+}
+
+#size-40:hover {
+    background: #e9ebe54b;
+    cursor: pointer;
+}
+
+.cart-button {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 25px;
+    left: 165px;
+}
+
+#actual-cart-button {
+    width: 50px;
+    height: 90px;
+    background: #B5DB48;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 5px 5px #e2e2e281;
+}
+
+#actual-cart-button:hover {
+    background: #b4db48ad;
+    cursor: pointer;
+}
+
+#arrow-1 {
+    position: absolute;
+    left: 80%;
+    top: 100%;
+}
+
+#arrow-2 {
+    position: absolute;
+    left: 80%;
+    top: 120%;
+}
+
+#arrow-3 {
+    position: absolute;
+    left: 80%;
+    top: 140%;
+}
+
+#cart-image {
+    position: absolute;
+    left: 50%;
+    top: 200%;
+}
