@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(26, 25, 25, 0.603);
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#stopwatch-block {
+    width: 700px;
+    margin: auto;
+    color: white;
+}
+
+#timer {
+    font-size: 128px;
+}
+
+#lbl-msec {
+    font-size: 51px;
+}
+
+#stopwatch-display {
+    font-family: "Orbitron" ;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    border-radius: 10%;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(209, 201, 201);
+}
+
+@media (max-width: 700px) {
+
+    #stopwatch-block {
+        margin: 30px ;
+        color: white;
+    }
+
+    #timer {
+        font-size: 80px;
+    }
+    
+    #lbl-msec {
+        font-size: 41px;
+    }
+
+    .btn {
+        width: 70px;
+        height: 30px;
+        margin: 5px;
+        font-size: .7rem;
+        border-radius: 10%;
+        border: none;
+    }
+  }
