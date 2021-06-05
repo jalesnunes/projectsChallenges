@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randon Number Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script src="/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Radon Number Generator</h1>
+    </header>
+    <main>
+        <div id="user-input">
+            <label>
+                Minimum
+                <input type="number" class="number-input" id="min-number" onchange="test()">
+            </label>
+            <span id="min-error"></span>
+            <label>
+                Maximum
+                <input type="number" class="number-input" id="max-number">
+            </label>
+            <button onclick="randomize()">Generate</button>
+        </div>
+        <div id="display-result">
+            <p id="result">Result:</p>
+            <h2 id="random-number-result"></h2>
+        </div>
+    </main>
+
+</body>
+
+</html>
