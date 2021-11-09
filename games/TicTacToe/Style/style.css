@@ -45,7 +45,7 @@ h1 {
 .square {
   width: 120px;
   height: 120px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.836);
 
   cursor: pointer;
   color: white;
@@ -65,3 +65,57 @@ button {
 button:hover {
   color:rgb(196, 196, 196);
 }
+
+/* @media screen and (min-width: 320px) {
+    
+  .wrapper {
+    width: 100%;
+    height: 50%;
+    margin: 10rem auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .square {
+    width: 50px;
+    height: 50px;
+  
+    line-height: 50px;
+    font-size: 1.5rem;
+  }
+
+  button {  
+    font-size: 1.5rem;
+    
+  }
+
+}
+
+@media screen and (min-width: 480px) {
+    
+  .wrapper {
+    width: 100%;
+    height: 50%;
+    margin: 7rem auto;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .square {
+    width: 90px;
+    height: 90px;
+  
+    line-height: 90px;
+    font-size: 4rem;
+  }
+
+  button {  
+    font-size: 3.5rem;
+    
+  }
+
+} */
