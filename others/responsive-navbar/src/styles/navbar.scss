@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  border: none;
+}
+
+:root {
+  --body-bg-color: #dce4e3;
+  --green: #18c29c;
+  --light-green: #8ed7c6;
+  --light-grey: #dce4e3;
+  --text-color: #084236;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+  background-color: var(--body-bg-color);
+}
+
+.container {
+  display: flex;
+}
+
+.navbar {
+  background-color: var(--green);
+  min-width: 16rem;
+  height: 100vh;
+
+  padding: 1rem;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem;
+    margin-bottom: 1rem;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    
+    padding: .8rem;
+    margin-bottom: 1rem;
+
+    a {
+      cursor: pointer;
+    }
+  }
+
+  li:hover {
+    background-color: var(--light-green);
+    border-radius: 1rem;
+    
+  }
+
+  
+}
+
+footer {
+  
+  min-width: 16rem;
+
+  margin-top:auto;
+
+  position: relative;
+  left: -21.5rem;
+  
+
+}
+
+.footer-navbar {
+  background-color: var(--light-green);
+  display: flex;
+  align-items: center;
+
+  padding: .5rem;
+
+  .profile-image {
+    width: 2.813rem;
+    height: 2.813rem;
+  }
+  .text-nav-footer {
+    margin-left: .5rem;
+
+    .name {
+      font-size: .9rem;
+    }
+    p {
+      font-size: .75rem;
+    }
+  }
+  .logoutIcon {
+    margin-left: 3.2rem;
+  }
+}
